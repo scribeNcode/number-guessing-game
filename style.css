@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+}
+
+
+
+.gameSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 80%;
+    height: 60vh;
+    margin-top: 20vh;
+}
+
+.gameWrapper{
+    background: whitesmoke;
+    height: 90%;
+    width: 50%;
+    
+}
+
+input[type="number"]{
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 20px;
+}
+
+
+.systemResponse{
+    background: goldenrod;
+    height: 10vh;
+    width: 60%;
+    margin: 5rem auto;
+}
+
+button{
+    padding:1em;
+    background: green;
+    width: 7rem;
+    color: white;
+}

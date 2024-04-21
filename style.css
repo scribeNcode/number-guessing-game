@@ -36,7 +36,7 @@ input[type="number"]{
 }
 
 
-.systemResponse{
+.submitButResult{
     background: goldenrod;
     height: 10vh;
     width: 60%;

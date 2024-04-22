@@ -8,44 +8,85 @@ body{
     background: whitesmoke;
 }
 
+header h1{
+    text-align: center;
+    background: #04aa6d;
+    color: white;
+    padding: 1rem;
+}
 
 
 .gameSection{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: aqua;
     width: 80%;
     height: 60vh;
-    margin-top: 20vh;
+    margin-top: 1vh;
 }
 
 .gameWrapper{
     background: whitesmoke;
     height: 90%;
-    width: 50%;
+    width: 100%;
     
+}
+
+.gameWrapper p{
+    text-align: center;
 }
 
 input[type="number"]{
     font-size: larger;
     text-align: center;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-top: 20px;
 }
 
 
 .submitButResult{
-    background: goldenrod;
-    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(209, 206, 206);
+    /* height: 10vh; */
     width: 60%;
-    margin: 5rem auto;
+    margin: 2rem auto;
 }
 
 button{
     padding:1em;
-    background: green;
+    background: #04aa6d;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    border: 0;
     width: 7rem;
     color: white;
 }
+
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    /* background: red; */
+}
+
+.emphasy{
+    /* width: 80px; */
+    
+    color: orangered;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.reloadPage{
+    display: none;
+}
+
+
+
